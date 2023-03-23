@@ -62,8 +62,8 @@ function startGame() {
     ballY = canvas.height / 2;
     ballSpeedX = -ballSpeedX; // inverte a direção da bola
     ballSpeedY = -ballSpeedY; // inverte a direção da bola
-    ballSpeedX = 3;
-    ballSpeedY = 3;
+    ballSpeedX = 5;
+    ballSpeedY = 5;
   }
 
 
