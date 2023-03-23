@@ -4,8 +4,8 @@ function startGame() {
 
   let ballX = canvas.width / 2;
   let ballY = canvas.height / 2;
-  let ballSpeedX = 3;
-  let ballSpeedY = 3;
+  let ballSpeedX = 5;
+  let ballSpeedY = 5;
 
 
 
@@ -170,7 +170,7 @@ function startGame() {
     movePaddle2();
   }
   
-  setInterval(draw, 10); // Loop principal do jogo
+  setInterval(draw,aumentarVelocidade, 10); // Loop principal do jogo
 
   hideStartButton();
 
